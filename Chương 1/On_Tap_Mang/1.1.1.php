@@ -6,7 +6,7 @@
 
 	// Đưa giá trị vào mảng cách 2
 	$array = array("Volvo", "BWM", "Toyota");
-	
+
 	// in ra cấu trúc mảng
 	echo "<pre>";
 	print_r($array);
