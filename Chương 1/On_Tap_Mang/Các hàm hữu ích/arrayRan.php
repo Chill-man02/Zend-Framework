@@ -1,9 +1,10 @@
 <?php
 	$fruits = array("lemon", "orange", "banana", "apple");
 
-	$rand_Key = array_rand($fruits);
+	// Para1: Mảng, Para2: Số phần tử muốn ngẫu nhiên lấy ra
+	$rand_Keys = array_rand($fruits, 2);
 
 	echo "<pre>";
-	print_r($rand_Key);
+	print_r($rand_Keys);
 	echo "</pre>";
 ?>

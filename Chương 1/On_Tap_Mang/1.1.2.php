@@ -31,6 +31,7 @@
 			$xhtml .= '</select>';
 			return $xhtml;
 		}
+		
 		$groupUser = createDropdownList(3, 'group_user', $newArr, 'width: 200px; boder: solid 1px #ccc;');
 		
 	} else {
